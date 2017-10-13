@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CCBDA721F9123BE007C0ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBDA711F9123BE007C0ADE /* AppDelegate.swift */; };
+		8CCBDA741F9123BE007C0ADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBDA731F9123BE007C0ADE /* ViewController.swift */; };
+		8CCBDA771F9123BE007C0ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCBDA751F9123BE007C0ADE /* Main.storyboard */; };
+		8CCBDA7A1F9123BE007C0ADE /* MostPopJavaApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBDA781F9123BE007C0ADE /* MostPopJavaApi.xcdatamodeld */; };
+		8CCBDA7C1F9123BF007C0ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCBDA7B1F9123BF007C0ADE /* Assets.xcassets */; };
+		8CCBDA7F1F9123BF007C0ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCBDA7D1F9123BF007C0ADE /* LaunchScreen.storyboard */; };
+		8CCBDA8A1F9123BF007C0ADE /* MostPopJavaApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBDA891F9123BF007C0ADE /* MostPopJavaApiTests.swift */; };
+		8CCBDA951F9123BF007C0ADE /* MostPopJavaApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBDA941F9123BF007C0ADE /* MostPopJavaApiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CCBDA861F9123BF007C0ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCBDA661F9123BD007C0ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCBDA6D1F9123BE007C0ADE;
+			remoteInfo = MostPopJavaApi;
+		};
+		8CCBDA911F9123BF007C0ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCBDA661F9123BD007C0ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCBDA6D1F9123BE007C0ADE;
+			remoteInfo = MostPopJavaApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CCBDA6E1F9123BE007C0ADE /* MostPopJavaApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MostPopJavaApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCBDA711F9123BE007C0ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CCBDA731F9123BE007C0ADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CCBDA761F9123BE007C0ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CCBDA791F9123BE007C0ADE /* MostPopJavaApi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MostPopJavaApi.xcdatamodel; sourceTree = "<group>"; };
+		8CCBDA7B1F9123BF007C0ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CCBDA7E1F9123BF007C0ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CCBDA801F9123BF007C0ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CCBDA851F9123BF007C0ADE /* MostPopJavaApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MostPopJavaApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCBDA891F9123BF007C0ADE /* MostPopJavaApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopJavaApiTests.swift; sourceTree = "<group>"; };
+		8CCBDA8B1F9123BF007C0ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CCBDA901F9123BF007C0ADE /* MostPopJavaApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MostPopJavaApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCBDA941F9123BF007C0ADE /* MostPopJavaApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopJavaApiUITests.swift; sourceTree = "<group>"; };
+		8CCBDA961F9123BF007C0ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CCBDA6B1F9123BE007C0ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCBDA821F9123BF007C0ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCBDA8D1F9123BF007C0ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CCBDA651F9123BD007C0ADE = {
+			isa = PBXGroup;
+			children = (
+				8CCBDA701F9123BE007C0ADE /* MostPopJavaApi */,
+				8CCBDA881F9123BF007C0ADE /* MostPopJavaApiTests */,
+				8CCBDA931F9123BF007C0ADE /* MostPopJavaApiUITests */,
+				8CCBDA6F1F9123BE007C0ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCBDA6F1F9123BE007C0ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBDA6E1F9123BE007C0ADE /* MostPopJavaApi.app */,
+				8CCBDA851F9123BF007C0ADE /* MostPopJavaApiTests.xctest */,
+				8CCBDA901F9123BF007C0ADE /* MostPopJavaApiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CCBDA701F9123BE007C0ADE /* MostPopJavaApi */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBDA711F9123BE007C0ADE /* AppDelegate.swift */,
+				8CCBDA731F9123BE007C0ADE /* ViewController.swift */,
+				8CCBDA751F9123BE007C0ADE /* Main.storyboard */,
+				8CCBDA7B1F9123BF007C0ADE /* Assets.xcassets */,
+				8CCBDA7D1F9123BF007C0ADE /* LaunchScreen.storyboard */,
+				8CCBDA801F9123BF007C0ADE /* Info.plist */,
+				8CCBDA781F9123BE007C0ADE /* MostPopJavaApi.xcdatamodeld */,
+			);
+			path = MostPopJavaApi;
+			sourceTree = "<group>";
+		};
+		8CCBDA881F9123BF007C0ADE /* MostPopJavaApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBDA891F9123BF007C0ADE /* MostPopJavaApiTests.swift */,
+				8CCBDA8B1F9123BF007C0ADE /* Info.plist */,
+			);
+			path = MostPopJavaApiTests;
+			sourceTree = "<group>";
+		};
+		8CCBDA931F9123BF007C0ADE /* MostPopJavaApiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBDA941F9123BF007C0ADE /* MostPopJavaApiUITests.swift */,
+				8CCBDA961F9123BF007C0ADE /* Info.plist */,
+			);
+			path = MostPopJavaApiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CCBDA6D1F9123BE007C0ADE /* MostPopJavaApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCBDA991F9123BF007C0ADE /* Build configuration list for PBXNativeTarget "MostPopJavaApi" */;
+			buildPhases = (
+				8CCBDA6A1F9123BE007C0ADE /* Sources */,
+				8CCBDA6B1F9123BE007C0ADE /* Frameworks */,
+				8CCBDA6C1F9123BE007C0ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MostPopJavaApi;
+			productName = MostPopJavaApi;
+			productReference = 8CCBDA6E1F9123BE007C0ADE /* MostPopJavaApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CCBDA841F9123BF007C0ADE /* MostPopJavaApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCBDA9C1F9123BF007C0ADE /* Build configuration list for PBXNativeTarget "MostPopJavaApiTests" */;
+			buildPhases = (
+				8CCBDA811F9123BF007C0ADE /* Sources */,
+				8CCBDA821F9123BF007C0ADE /* Frameworks */,
+				8CCBDA831F9123BF007C0ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CCBDA871F9123BF007C0ADE /* PBXTargetDependency */,
+			);
+			name = MostPopJavaApiTests;
+			productName = MostPopJavaApiTests;
+			productReference = 8CCBDA851F9123BF007C0ADE /* MostPopJavaApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CCBDA8F1F9123BF007C0ADE /* MostPopJavaApiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCBDA9F1F9123BF007C0ADE /* Build configuration list for PBXNativeTarget "MostPopJavaApiUITests" */;
+			buildPhases = (
+				8CCBDA8C1F9123BF007C0ADE /* Sources */,
+				8CCBDA8D1F9123BF007C0ADE /* Frameworks */,
+				8CCBDA8E1F9123BF007C0ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CCBDA921F9123BF007C0ADE /* PBXTargetDependency */,
+			);
+			name = MostPopJavaApiUITests;
+			productName = MostPopJavaApiUITests;
+			productReference = 8CCBDA901F9123BF007C0ADE /* MostPopJavaApiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CCBDA661F9123BD007C0ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Santos Brasil";
+				TargetAttributes = {
+					8CCBDA6D1F9123BE007C0ADE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8CCBDA841F9123BF007C0ADE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CCBDA6D1F9123BE007C0ADE;
+					};
+					8CCBDA8F1F9123BF007C0ADE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CCBDA6D1F9123BE007C0ADE;
+					};
+				};
+			};
+			buildConfigurationList = 8CCBDA691F9123BD007C0ADE /* Build configuration list for PBXProject "MostPopJavaApi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CCBDA651F9123BD007C0ADE;
+			productRefGroup = 8CCBDA6F1F9123BE007C0ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CCBDA6D1F9123BE007C0ADE /* MostPopJavaApi */,
+				8CCBDA841F9123BF007C0ADE /* MostPopJavaApiTests */,
+				8CCBDA8F1F9123BF007C0ADE /* MostPopJavaApiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CCBDA6C1F9123BE007C0ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCBDA7F1F9123BF007C0ADE /* LaunchScreen.storyboard in Resources */,
+				8CCBDA7C1F9123BF007C0ADE /* Assets.xcassets in Resources */,
+				8CCBDA771F9123BE007C0ADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCBDA831F9123BF007C0ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCBDA8E1F9123BF007C0ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CCBDA6A1F9123BE007C0ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCBDA741F9123BE007C0ADE /* ViewController.swift in Sources */,
+				8CCBDA7A1F9123BE007C0ADE /* MostPopJavaApi.xcdatamodeld in Sources */,
+				8CCBDA721F9123BE007C0ADE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCBDA811F9123BF007C0ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCBDA8A1F9123BF007C0ADE /* MostPopJavaApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCBDA8C1F9123BF007C0ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCBDA951F9123BF007C0ADE /* MostPopJavaApiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CCBDA871F9123BF007C0ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCBDA6D1F9123BE007C0ADE /* MostPopJavaApi */;
+			targetProxy = 8CCBDA861F9123BF007C0ADE /* PBXContainerItemProxy */;
+		};
+		8CCBDA921F9123BF007C0ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCBDA6D1F9123BE007C0ADE /* MostPopJavaApi */;
+			targetProxy = 8CCBDA911F9123BF007C0ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CCBDA751F9123BE007C0ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCBDA761F9123BE007C0ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CCBDA7D1F9123BF007C0ADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CCBDA7E1F9123BF007C0ADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CCBDA971F9123BF007C0ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CCBDA981F9123BF007C0ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CCBDA9A1F9123BF007C0ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5W38DPBL;
+				INFOPLIST_FILE = MostPopJavaApi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcsg.concrete.MostPopJavaApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CCBDA9B1F9123BF007C0ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5W38DPBL;
+				INFOPLIST_FILE = MostPopJavaApi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcsg.concrete.MostPopJavaApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CCBDA9D1F9123BF007C0ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5W38DPBL;
+				INFOPLIST_FILE = MostPopJavaApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcsg.concrete.MostPopJavaApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MostPopJavaApi.app/MostPopJavaApi";
+			};
+			name = Debug;
+		};
+		8CCBDA9E1F9123BF007C0ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5W38DPBL;
+				INFOPLIST_FILE = MostPopJavaApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcsg.concrete.MostPopJavaApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MostPopJavaApi.app/MostPopJavaApi";
+			};
+			name = Release;
+		};
+		8CCBDAA01F9123BF007C0ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5W38DPBL;
+				INFOPLIST_FILE = MostPopJavaApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcsg.concrete.MostPopJavaApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MostPopJavaApi;
+			};
+			name = Debug;
+		};
+		8CCBDAA11F9123BF007C0ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5W38DPBL;
+				INFOPLIST_FILE = MostPopJavaApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcsg.concrete.MostPopJavaApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MostPopJavaApi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CCBDA691F9123BD007C0ADE /* Build configuration list for PBXProject "MostPopJavaApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCBDA971F9123BF007C0ADE /* Debug */,
+				8CCBDA981F9123BF007C0ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCBDA991F9123BF007C0ADE /* Build configuration list for PBXNativeTarget "MostPopJavaApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCBDA9A1F9123BF007C0ADE /* Debug */,
+				8CCBDA9B1F9123BF007C0ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCBDA9C1F9123BF007C0ADE /* Build configuration list for PBXNativeTarget "MostPopJavaApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCBDA9D1F9123BF007C0ADE /* Debug */,
+				8CCBDA9E1F9123BF007C0ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCBDA9F1F9123BF007C0ADE /* Build configuration list for PBXNativeTarget "MostPopJavaApiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCBDAA01F9123BF007C0ADE /* Debug */,
+				8CCBDAA11F9123BF007C0ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CCBDA781F9123BE007C0ADE /* MostPopJavaApi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CCBDA791F9123BE007C0ADE /* MostPopJavaApi.xcdatamodel */,
+			);
+			currentVersion = 8CCBDA791F9123BE007C0ADE /* MostPopJavaApi.xcdatamodel */;
+			path = MostPopJavaApi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CCBDA661F9123BD007C0ADE /* Project object */;
+}
